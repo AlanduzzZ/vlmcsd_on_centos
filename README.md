@@ -6,6 +6,7 @@ slmgr /skms yourdomain.com
 slmgr /ato  
 slmgr /xpr  
   
+激活Office时，如果是零售版，则需要用Retail_To_VOL.bat脚本转换为VOL版
 激活Office，这里是激活64位  
 cd /d "%ProgramFiles%\Microsoft Office\Office15"  
 cscript ospp.vbs /sethst:yourdomain.com  
